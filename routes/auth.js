@@ -1,14 +1,6 @@
 /**
  * Authentication related routes.
  */
-/*
-var express = require("express");
-var passport = require("passport");
-var LocalStrategy = require("passport-local");
-var crypto = require("crypto"); // NodeJS built-in module.
-var db = require("../db"); // SQLite3 database for the application.
-*/
-
 import express from "express";
 import passport from "passport";
 import LocalStrategy from "passport-local";
@@ -110,5 +102,4 @@ router.post("/signup", function (req, res, next) {
   });
 });
 
-//module.exports = router;
 export default router;

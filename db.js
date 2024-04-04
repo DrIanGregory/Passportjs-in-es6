@@ -1,8 +1,3 @@
-/*
-var sqlite3 = require('sqlite3');
-var mkdirp = require('mkdirp');
-var crypto = require('crypto');
-*/
 import sqlite3 from "sqlite3";
 import mkdirp from "mkdirp";
 import crypto from "crypto";

@@ -134,5 +134,4 @@ router.post("/clear-completed", function (req, res, next) {
   });
 });
 
-//module.exports = router;
 export default router;

@@ -52,7 +52,6 @@ import authRouter from "./routes/auth.js";
 app.use("/", indexRouter);
 app.use("/", authRouter);
 
-//app.locals.pluralize = require("pluralize");
 import Pluralize from "pluralize";
 app.locals.pluralize = Pluralize;
 
