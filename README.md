@@ -15,10 +15,10 @@
 <h3>How to use</h3>
 
 ##
-npm install
+	npm install
 
 ##
-node ./app.js
+	node ./app.js
 
 <h3>Expected Output</h3>
 <pre>
